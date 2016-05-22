@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url("workslist.css");
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+	font-family: Microsoft Sans Serif;
+	background:#41596e;
+	text-decoration:none;
+	height:1300px;
+	
+	
+}
+
+a {
+    text-decoration:none;
+	color:#fff4a7;
+	
+}
+
+/* bar up */
+
+header{
+	background:#ea5e5a;
+	top:0;
+	position:fixed;
+	z-index:1001;
+	width:100%;
+}
+
+nav ul{
+
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+	
+	
+}
+
+nav li{
+	
+	padding:8px;
+  	margin:0;
+  	display:inline-block;
+	font-size:10px;
+	letter-spacing:2px;
+	dispaly:fixed;
+	z-index:100;
+	position:relative; 
+		
+}
+
+.selfweb{
+	
+	padding:8px;
+  	margin:0;
+  	display:inline-block;
+	font-size:10px;
+	letter-spacing:2px;
+	dispaly:fixed;
+	z-index:100;
+	color:9cd0aa;
+	background:#9cd0aa;
+	float:right;
+	
+}
+.index{
+	padding:8px;
+  	margin:0;
+  	display:inline-block;
+	font-size:10px;
+	letter-spacing:2px;
+	dispaly:fixed;
+	z-index:100;
+	color:9cd0aa;
+	background:#9cd0aa;
+	float:left;
+}
+nav li:active
+{ 
+text-decoration:line-through;
+
+}
+
+h1{
+	text-align:center;	
+	padding:0 0 0 0;
+	position:fixed;
+	width:100%;
+	fontwidth-size:15px;
+	z-index:1000;
+	font-size:15px;
+	letter-spacing:5px;
+	top:60px;
+	color:#ea5e5a;
+}
+/* bar up end*/
+
+main{
+	text-align:center;
+	margin:auto;
+	
+}
+section{
+	margin:auto;
+	width:90%;
+	margin-top:100px;
+	text-align:center;
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 4px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 4px; /* Firefox */
+    column-gap: 4px;
+}
+
+
+section img{
+	width:100%;
+	/*height:auto;*/
+	padding:20px;
+	box-sizing:border-box;
+}
+
+.outline{
+	top:150px;
+	/*padding:20px;*/
+	width:100%;
+}
+
+/* bar down */
+footer{
+	text-align:center;
+	padding:8px;
+	font-size:10px;
+	background:#ea5e5a;
+	bottom:0;
+	position:fixed;
+	z-index:1000;
+	width:100%;
+	color:#fff4a7;
+	letter-spacing:2px;
+}
+/* bar down end*/
+
+
+.tile {
+    /*float: left;*/
+    /*margin: 3px;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.tile img {
+    /*display:block;*/
+	width: 100%;
+}
+
+.tile img.light {
+    position: absolute;
+    left:0;
+    top:0;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -o-transition: all ;
+    transition: all ;
+}
+
+.tile img.light:hover {
+    opacity:0;
+    -webkit-transform: scale(1);
+}
+
+h4{
+	color:#ea5e5a;
+	padding:10px;
+	font-size:12px;
+}
+

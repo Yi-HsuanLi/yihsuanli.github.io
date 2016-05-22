@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+	font-family: Georgia, "Times New Roman", Times, serif, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU";
+}
+
+header{
+	background:#DB5557;
+	top:0;
+	position:fixed;
+	z-index:1001;
+	width:100%;
+}
+nav ul{
+
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+}
+
+nav li{
+	padding:8px;
+  	margin:0;
+  	display:inline-block;
+	font-size:10px;
+	dispaly:fixed;
+	z-index:100;
+}
+
+h1{
+	text-align:center;	
+	padding:0 0 0 0;
+	position:fixed;
+	width:100%;
+	fontwidth-size:15px;
+	z-index:1000;
+	font-size:14px;
+	top:30px;	
+}
+
+section{
+	margin-top:80px;
+	text-align:center;
+	margin:auto;
+	width:900px;
+}
+
+h2{
+	text-align:center;	
+	padding:0 0 0 0;
+	width:100%;
+	font-size:14px;
+	top:300px;
+			
+}
+	
+
+
+article{
+	float:left;
+	padding-top:100px;
+}
+
+#main{
+	display:block;
+	width:100px;
+	float:left;
+}
+
+#contents{
+	display:block;
+	width:400px;
+	float:left;
+}
+
+
+footer{
+	
+	text-align:center;
+	padding:8px;
+	font-size:10px;
+	background:#F24F51;
+	bottom:0;
+	position:fixed;
+	z-index:1000;
+	width:100%;
+}

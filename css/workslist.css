@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+
+	
+nav li ul{
+    position: absolute; /* 讓表單可以對其第一層的設定*/
+    display:none; /* 一開始隱形*/
+    left: 0;    
+    margin: 0;
+	background:#FF8183;
+	width:80px;
+	
+}
+	
+nav ul li:hover > ul{ /* 第一層選單滑鼠滑過時，顯示*/
+    display: block;
+	top:100%;
+	text-align:left;
+	width:300px;
+	background:#9cd0aa;
+	opacity:30%;
+}
